@@ -1,0 +1,104 @@
+@media (min-width:481px) and (max-width:1024px){
+    #desktop-navbar{
+        display: none;
+    }
+    #tablet-navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    #profile{
+        display: none;
+    }
+    #tablet-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        background-image: url(../images/HomeBackground.jpg);
+        background-size:cover;
+        margin: 0 0;
+        overflow: hidden;
+    }
+    #about{
+        display: none;
+    }
+    #tablet-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+        position: relative;
+        border-style: solid;
+        border-color: lightslategrey;
+        border-radius: 1rem;
+        box-shadow:3px 3px 10px lightslategray;
+        margin: 2rem;
+    }
+    #mobile-about{
+        display: none;
+    }
+    #hobbies{
+        margin: 2rem;
+    }
+}
+
+@media (max-width:480px){
+    #desktop-navbar{
+        display: none;
+    }
+    #tablet-navbar{
+        display: none;
+    }
+    #mobile-navbar{
+        display: flex;
+    }
+    #profile{
+        display: none;
+    }
+    #tablet-profile{
+        display: none;
+    }
+    #mobile-profile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        background-image: url(../images/HomeBackground.jpg);
+        background-size:cover;
+        margin: 0 0;
+        overflow: hidden;
+    }
+
+    #about{
+        display: none;
+    }
+    #tablet-about{
+        display: none;
+    }
+
+    #mobile-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        overflow: hidden;
+        position: relative;
+        border-style: solid;
+        border-color: lightslategrey;
+        border-radius: 1rem;
+        box-shadow:3px 3px 10px lightslategray;
+        margin: 2rem;
+    }
+    #hobbies{
+        margin: 1rem;
+    }
+}  
